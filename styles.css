@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+
+}
+
+.Orientation{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Orientation ul{
+    background-color: #3399FF;
+    color:white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.Orientation ul li{
+      list-style-type: none;
+      margin: 15px;
+      padding: 0;
+      font-size: 18px;
+      font-weight: bold;
+      display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+#header ,section{
+    position: relative;
+    top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+section{
+  border: 3px solid gray;
+  margin: 20px auto;
+  max-height: 1000px;
+  max-width: 1000px;
+  min-height: 300px;
+  min-width: 500px;
+  text-align: center;
+}
+
+h2{
+  text-decoration: underline;
+  margin: 5px 5px;
+  font-size: 40px;
+}
+
+div{
+  display: inline-block;
+  margin: 5px;
+  margin-top:10px;
+  height: 100px;
+  width: 200px;
+}
+
+#colors p{
+  color: white;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#blue{
+  background-color:#39F;
+}
+
+#green{
+  background-color:#3F9;
+}
+
+#yellow{
+  background-color:#FF6;
+}
+
+#red{
+  background-color:#C00
+}
+
+#fonts{
+
+}
+
+#fonts div{
+  letter-spacing:2px;
+}
+
+#fonts div p{
+  display: inline-block;
+  margin-bottom: 1.5px;
+}
+
+#fonts div .name{
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#ZCOOL_KuaiLe{
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#Montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#Karla{
+  font-family: 'Karla', sans-serif;
+}
+
+.text_style ul{
+      list-style-type: none;
+}
